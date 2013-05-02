@@ -28,6 +28,17 @@
 		FBB0DBCB1732DFFA00E6FD04 /* Ejercicio7T8 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Ejercicio7T8; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBB0DBCE1732DFFA00E6FD04 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		FBB0DBD01732DFFA00E6FD04 /* Ejercicio7T8.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Ejercicio7T8.1; sourceTree = "<group>"; };
+		FBB0DBD81732E1A200E6FD04 /* Arbin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Arbin.h; sourceTree = "<group>"; };
+		FBB0DBD91732E1A200E6FD04 /* ArbinConCopias.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArbinConCopias.h; sourceTree = "<group>"; };
+		FBB0DBDA1732E1A200E6FD04 /* Arbus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Arbus.h; sourceTree = "<group>"; };
+		FBB0DBDB1732E1A200E6FD04 /* Cola.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cola.h; sourceTree = "<group>"; };
+		FBB0DBDC1732E1A200E6FD04 /* DCola.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCola.h; sourceTree = "<group>"; };
+		FBB0DBDD1732E1A200E6FD04 /* Excepciones.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Excepciones.h; sourceTree = "<group>"; };
+		FBB0DBDE1732E1A200E6FD04 /* Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hash.h; sourceTree = "<group>"; };
+		FBB0DBDF1732E1A200E6FD04 /* Lista.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lista.h; sourceTree = "<group>"; };
+		FBB0DBE01732E1A200E6FD04 /* Pila.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pila.h; sourceTree = "<group>"; };
+		FBB0DBE11732E1A200E6FD04 /* PilaLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PilaLE.h; sourceTree = "<group>"; };
+		FBB0DBE21732E1A200E6FD04 /* Tabla.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tabla.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +71,29 @@
 		FBB0DBCD1732DFFA00E6FD04 /* Ejercicio7T8 */ = {
 			isa = PBXGroup;
 			children = (
-				FBB0DBCE1732DFFA00E6FD04 /* main.cpp */,
+				FBB0DBD71732E07E00E6FD04 /* headers */,
 				FBB0DBD01732DFFA00E6FD04 /* Ejercicio7T8.1 */,
+				FBB0DBCE1732DFFA00E6FD04 /* main.cpp */,
 			);
 			path = Ejercicio7T8;
+			sourceTree = "<group>";
+		};
+		FBB0DBD71732E07E00E6FD04 /* headers */ = {
+			isa = PBXGroup;
+			children = (
+				FBB0DBD81732E1A200E6FD04 /* Arbin.h */,
+				FBB0DBD91732E1A200E6FD04 /* ArbinConCopias.h */,
+				FBB0DBDA1732E1A200E6FD04 /* Arbus.h */,
+				FBB0DBDB1732E1A200E6FD04 /* Cola.h */,
+				FBB0DBDC1732E1A200E6FD04 /* DCola.h */,
+				FBB0DBDD1732E1A200E6FD04 /* Excepciones.h */,
+				FBB0DBDE1732E1A200E6FD04 /* Hash.h */,
+				FBB0DBDF1732E1A200E6FD04 /* Lista.h */,
+				FBB0DBE01732E1A200E6FD04 /* Pila.h */,
+				FBB0DBE11732E1A200E6FD04 /* PilaLE.h */,
+				FBB0DBE21732E1A200E6FD04 /* Tabla.h */,
+			);
+			name = headers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
